@@ -6,11 +6,11 @@
         <label>灵石</label>
         <description>修真界流传于修真者之间的一种神奇的石头，具有某些特殊的功效。</description>
         <graphicData>
-            <texPath>Things/Item/Resource/Gold</texPath>
+            <texPath>Things/Item/Chunk/ChunkStone</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
-        <soundInteract>Silver_Drop</soundInteract>
-        <soundDrop>Silver_Drop</soundDrop>
+        <soundInteract>Stone_Drop</soundInteract>
+        <soundDrop>Stone_Drop</soundDrop>
         <useHitPoints>false</useHitPoints>
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>

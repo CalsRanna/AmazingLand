@@ -1,83 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="UglyRockBase" Name="SandstoneBase">
-        <defName>Sandstone</defName>
-        <label>sandstone</label>
-        <description>A sedimentary rock composed of sand particles compressed together.</description>
-        <graphicData>
-            <color>(126,104,94)</color>
-        </graphicData>
-        <statBases>
-            <MaxHitPoints>400</MaxHitPoints>
-        </statBases>
-        <building>
-            <mineableThing>ChunkSandstone</mineableThing>
-            <mineableDropChance>0.25</mineableDropChance>
-            <smoothedThing>SmoothedSandstone</smoothedThing>
-        </building>
-    </ThingDef>
-
-    <ThingDef ParentName="SandstoneBase">
-        <defName>SmoothedSandstone</defName>
-        <label>smoothed sandstone</label>
-        <description>A sedimentary rock composed of sand particles compressed together. The sand layers have been polished to a flat, smooth surface.</description>
-        <graphicData>
-            <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
-        </graphicData>
-        <statBases>
-            <Beauty>1</Beauty>
-            <MarketValue>18</MarketValue>
-        </statBases>
-        <building>
-            <isNaturalRock>false</isNaturalRock>
-            <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
-            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-            <smoothedThing />
-        </building>
-        <saveCompressible>false</saveCompressible>
-        <repairEffect>Repair</repairEffect>
-    </ThingDef>
-
-    <ThingDef ParentName="ChunkRockBase">
-        <defName>ChunkSandstone</defName>
-        <label>sandstone chunk</label>
-        <graphicData>
-            <color>(126,104,94)</color>
-        </graphicData>
-        <statBases>
-            <Mass>20</Mass>
-        </statBases>
-        <soundDrop>ChunkRock_Drop</soundDrop>
-        <butcherProducts>
-            <BlocksSandstone>20</BlocksSandstone>
-        </butcherProducts>
-    </ThingDef>
-
     <ThingDef ParentName="StoneBlocksBase">
-        <defName>BlocksSandstone</defName>
-        <label>sandstone blocks</label>
+        <defName>BlocksReikiStone</defName>
+        <label>灵石砖</label>
         <description>Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily.</description>
         <graphicData>
-            <color>(126,104,94)</color>
+            <color>(204,255,255)</color>
         </graphicData>
         <statBases>
             <Mass>1</Mass>
             <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
         </statBases>
-        <stuffProps>
-            <color>(126,104,94)</color>
-            <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
-            <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-            <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-            <stuffAdjective>sandstone</stuffAdjective>
-            <statFactors>
-                <Beauty>1.1</Beauty>
-                <MaxHitPoints>1.4</MaxHitPoints>
-                <WorkToBuild>5.0</WorkToBuild>
-                <WorkToMake>1.1</WorkToMake>
-            </statFactors>
-        </stuffProps>
     </ThingDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBase">
@@ -88,7 +22,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ChunkSandstone</li>
+                        <li>ReikiStone</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -96,11 +30,11 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>ChunkSandstone</li>
+                <li>ReikiStone</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <BlocksSandstone>20</BlocksSandstone>
+            <BlocksReikiStone>100</BlocksReikiStone>
         </products>
     </RecipeDef>
 

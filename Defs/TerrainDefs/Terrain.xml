@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <TerrainDef ParentName="TileStoneBase">
-        <defName>TileReikiStone</defName>
-        <label>灵石地砖</label>
+    <TerrainDef ParentName="FlagstoneBase">
+        <defName>FlagstoneReikiStone</defName>
+        <label>灵石石板</label>
+        <description>粗糙切割的岩石地砖。不太好看，但非常合适铺设道路和室外的走道。拆除石板无法回收资源。</description>
         <color>(204,255,255)</color>
         <costList>
             <BlocksReikiStone>1</BlocksReikiStone>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef ParentName="TileStoneBase">
+        <defName>TileReikiStone</defName>
+        <label>灵石地砖</label>
+        <description>坚固的石质地砖给人以城堡一样的感觉。看起来很漂亮，就是铺设速度较慢。</description>
+        <color>(204,255,255)</color>
+        <costList>
+            <BlocksReikiStone>1</BlocksReikiStone>
+        </costList>
+    </TerrainDef>
+    
+    <TerrainDef ParentName="FineTileStoneBase">
+        <defName>FineTileReikiStone</defName>
+        <label>精致灵石地砖</label>
+        <description>精美的石砖，毫不妥协地制作，用来表现地位。施工缓慢。</description>
+        <color>(204,255,255)</color>
+        <costList>
+            <BlocksReikiStone>4</BlocksReikiStone>
         </costList>
     </TerrainDef>
 

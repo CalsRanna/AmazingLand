@@ -6,7 +6,7 @@
         <label>修真界</label>
         <description>你们四人乘坐的飞船经历了一场莫名其妙的入侵，船长在关键时刻将所有乘客送进了逃生舱，但是最终能幸存下来的人微乎其微。你们四个人醒来后发现自己在一个完全陌生的世界，也不知道你们到底是幸运还是不幸。</description>
         <scenario>
-            <summary>4人迫降幸存者，闯入一个完全陌生的世界。</summary>
+            <summary>4名逃生舱幸存者，闯入一个完全陌生的世界。</summary>
             <playerFaction>
                 <def>PlayerFaction</def>
                 <factionDef>PlayerColony</factionDef>
@@ -39,6 +39,11 @@
                 </li>
 
                 <!-- Player starting things -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ReikiStone</thingDef>
+                    <count>8000</count>
+                </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>Silver</thingDef>
