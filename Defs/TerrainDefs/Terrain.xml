@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <TerrainDef ParentName="TileStoneBase">
+        <defName>TileReikiStone</defName>
+        <label>灵石地砖</label>
+        <color>(204,255,255)</color>
+        <costList>
+            <BlocksReikiStone>1</BlocksReikiStone>
+        </costList>
+    </TerrainDef>
+
+</Defs>
