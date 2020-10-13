@@ -564,6 +564,7 @@
       <li>CookMealSurvivalBulk</li>
       <li>Make_Pemmican</li>
       <li>Make_PemmicanBulk</li>
+      <li>Make_BiGuDan</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -649,6 +650,7 @@
       <li>CookMealSurvivalBulk</li>
       <li>Make_Pemmican</li>
       <li>Make_PemmicanBulk</li>
+      <li>Make_BiGuDan</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

@@ -41,16 +41,6 @@
         <!-- Player starting things -->
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>ChunkReikiStone</thingDef>
-          <count>8000</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Silver</thingDef>
-          <count>800</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
           <thingDef>MealSurvivalPack</thingDef>
           <count>500</count>
         </li>
@@ -59,70 +49,12 @@
           <thingDef>MedicineIndustrial</thingDef>
           <count>300</count>
         </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>ComponentIndustrial</thingDef>
-          <count>30</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Gun_BoltActionRifle</thingDef>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Gun_Revolver</thingDef>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>MeleeWeapon_Knife</thingDef>
-          <stuff>Plasteel</stuff>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Apparel_FlakPants</thingDef>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Apparel_FlakVest</thingDef>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Apparel_AdvancedHelmet</thingDef>
-          <stuff>Plasteel</stuff>
-        </li>
-        <li Class="ScenPart_StartingAnimal">
-          <def>StartingAnimal</def>
-          <count>1</count>
-          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
-        </li>
-
-        <!-- Scatter some things near player start -->
-        <li Class="ScenPart_ScatterThingsNearPlayerStart">
-          <def>ScatterThingsNearPlayerStart</def>
-          <thingDef>Steel</thingDef>
-          <count>450</count>
-        </li>
-        <li Class="ScenPart_ScatterThingsNearPlayerStart">
-          <def>ScatterThingsNearPlayerStart</def>
-          <thingDef>WoodLog</thingDef>
-          <count>300</count>
-        </li>
 
         <!-- Scatter some things anywhere -->
-        <li Class="ScenPart_ScatterThingsAnywhere">
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
           <def>ScatterThingsAnywhere</def>
           <thingDef>ShipChunk</thingDef>
           <count>3</count>
-        </li>
-        <li Class="ScenPart_ScatterThingsAnywhere">
-          <def>ScatterThingsAnywhere</def>
-          <thingDef>Steel</thingDef>
-          <count>720</count>
-        </li>
-        <li Class="ScenPart_ScatterThingsAnywhere">
-          <def>ScatterThingsAnywhere</def>
-          <thingDef>MealSurvivalPack</thingDef>
-          <count>70</count>
         </li>
 
         <!-- Game start dialog -->
