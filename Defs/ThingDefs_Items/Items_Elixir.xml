@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf8" ?>
+<Defs>
+
+  <ThingDef ParentName="MealCooked">
+    <defName>Meal_BiGuDan</defName>
+    <label>辟谷丹</label>
+    <description>修真界常见的丹药，服用后长时间无需进食。</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Simple</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(204,204,153)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>10</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+</Defs>

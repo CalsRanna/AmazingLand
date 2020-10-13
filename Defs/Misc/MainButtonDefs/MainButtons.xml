@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MainButtonDef>
+    <defName>sect</defName>
+    <label>门派</label>
+    <description>门派相关事务管理。</description>
+    <workerClass>MainButtonWorker_ToggleWorld</workerClass>
+    <order>71</order>
+    <defaultHotKey>O</defaultHotKey>
+  </MainButtonDef>
+
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============================== Tier 1: pre-electricity ===================================-->
+
+  <!--===== Column 1 ====-->
+
+  <ResearchProjectDef>
+    <tab>Reiki</tab>
+    <defName>PolishReikiStone</defName>
+    <label>灵石打磨</label>
+    <description>将灵石块打磨成标准大小和形状。</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchTabDef>
+    <defName>Reiki</defName>
+    <label>灵气</label>
+  </ResearchTabDef>
+
+</Defs>

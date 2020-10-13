@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <packageId>calsranna.AmazingLand</packageId>
-    <name>Amazing Land（修真界）</name>
-    <author>Cals Ranna</author>
-    <description>
+  <packageId>calsranna.AmazingLand</packageId>
+  <name>Amazing Land（修真界）</name>
+  <author>Cals Ranna</author>
+  <description>
     有没有想过飞船坠落到的星球并不是科技星球，而是一个全民修炼的世界？是的，修真界正在缓缓拉开帷幕。来吧，让我们痛痛快快的修炼一场吧！
     - 添加灵石及其相关设备产品
-    </description>
-    <supportedVersions>
-        <li>1.2</li>
-    </supportedVersions>
-    <loadAfter>
-        <li>Ludeon.RimWorld</li>
-    </loadAfter>
+  </description>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+  </loadAfter>
 </ModMetaData>

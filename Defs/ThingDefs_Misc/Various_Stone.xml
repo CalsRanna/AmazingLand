@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UglyRockBase">
+    <defName>ReikiStone</defName>
+    <label>灵石矿</label>
+    <description>可开采出修真界流传于修真者之间的一种神奇的石头，具有某些特殊的功效。</description>
+    <graphicData>
+      <color>(204,255,255)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <Beauty>10</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkReikiStone</mineableThing>
+      <mineableDropChance>1</mineableDropChance>
+      <smoothedThing/>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkReikiStone</defName>
+    <label>灵石</label>
+    <description>修真界流传于修真者之间的一种神奇的石头，具有某些特殊的功效。经过切割打磨的灵石也是修真者之间的货币之一。</description>
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(204,255,255)</color>
+    </graphicData>
+    <statBases>
+      <Mass>10</Mass>
+      <Beauty>15</Beauty>
+      <Cleanliness>5</Cleanliness>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <stackLimit>500</stackLimit>
+    <butcherProducts>
+      <BlocksMarble>20</BlocksMarble>
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksReikiStone</defName>
+    <label>灵石砖</label>
+    <description>稀有的灵石砖块。</description>
+    <graphicData>
+      <color>(204,255,255)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>灵石</stuffAdjective>
+      <statFactors>
+        <Beauty>1.35</Beauty>
+        <MaxHitPoints>1.2</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>1.15</WorkToMake>
+      </statFactors>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>Make_StoneBlocksReikiStone</defName>
+    <label>制作灵石砖</label>
+    <description>将灵石块切割成可用的砖块。</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkReikiStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkReikiStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BlocksReikiStone>100</BlocksReikiStone>
+    </products>
+  </RecipeDef>
+
+</Defs>
